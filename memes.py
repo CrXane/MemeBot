@@ -49,6 +49,6 @@ def send_discord_message(data):
 	response = webhook.execute() # POST method and receive output
 	
 # Main func
-#while True:
-memes() # MemeBot
-#	time.sleep(float(refreshtime) - ((time.time() - starttime) % float(refreshtime))) # Timer
+while True:
+	memes() # MemeBot
+	time.sleep(float(refreshtime) - ((time.time() - starttime) % float(refreshtime))) # Timer
